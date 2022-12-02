@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0px;
+    text-align: center; 
+}
+
+form {
+    text-align: center;
+}
+#explore-button {
+        display: inline-block;
+        width: 100px;
+        cursor: pointer;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 12px 0;
+        font-size: .8em;
+        border: 0;
+        border-radius: 0;
+        transition-property: all;
+        transition-duration: .15s;
+        font-weight: bold;
+        z-index: 98;
+        background-color: #c03e3e;
+}
