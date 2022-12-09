@@ -8,18 +8,32 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <video autoplay muted loop id="myVideo">
+        <source src="/Time Lapse Video Of Night Sky.mp4" type="video/mp4">
+      </video>
+      
+      
     <header>
         <nav>
             <ul>
-                <a href="index.html">index</a>
+                <a href="index.html">Home</a>
                 <a href="nationalpark.html">Parks</a>
                 <a href="mountains.html">Mountains</a>
             </ul>
     </header>
     <main>
+        <div class="container">
+            <select id="mountainsListDropDown"></select>
+            <button id="searchButton">Search Mountain</button>
+        </div>
+        <div id="mountains"></div>
     </main>
     
-
-    <script src="scripts/app.js"></script>
+    <script src="scripts/locationData.js"></script>
+    <script src="scripts/mountainData.js"></script>
+    <script src="scripts/nationalParkData.js"></script>
+    <script src="scripts/parkTypeData.js"></script>
+    <script src="scripts/mountains.js"></script>
+    
 </body>
 </html>
